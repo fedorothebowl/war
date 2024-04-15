@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <style>
+            iframe{
+                height: 100%;
+                width: 100%;
+                }
+        </style>
+    </head>
+
+    <body class="h-screen w-screen">
+        <div class="fixed inset-0 rounded-lg bg-white shadow-xl z-10 w-full md:max-w-xl max-w-sm h-80 m-auto p-2.5 text-center flex flex-col justify-around js-close">
+            <h1>Il rapporto "Profittare in Pericolo" del 2021, redatto da ICAN e PAX, esamina il coinvolgimento delle istituzioni finanziarie italiane nella <strong>produzione di armi nucleari</strong>. Esso rivela che 338 istituti finanziari hanno reso disponibili 685 miliardi di dollari a 25 aziende produttrici di armi nucleari, provenienti da vari paesi, <strong>tra cui l'Italia</strong>. </h1>
+            <button class="absolute top-2.5 right-2.5 text-xs uppercase" onclick="document.querySelectorAll('.js-close').forEach(el => { el.classList.add('hidden') })">Chiudi</button>
+        </div>
+        <div class="fixed w-full h-full top-0 left-0 bg-black bg-opacity-50 js-close"></div>
+        <iframe src="https://airtable.com/embed/appLR3QuA6OzkCMK4/shrcmRrxyetLeqAHY?backgroundColor=teal&layout=card&viewControls=on" frameborder="0"></iframe>
+    </body>
+
+</html>
